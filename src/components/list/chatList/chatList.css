@@ -64,3 +64,18 @@
     }
   }
 }
+
+/* Hide scrollbar for Chrome, Edge, and Safari */
+.chatList::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.chatList {
+  scrollbar-width: none;
+}
+
+/* Optionally, keep scroll functionality but hide the scrollbar */
+.chatList {
+  -ms-overflow-style: none; /* IE and Edge */
+}
